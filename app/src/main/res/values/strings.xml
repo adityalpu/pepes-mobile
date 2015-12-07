@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PepesMobile</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_section1">RT</string>
+    <string name="title_section2">RW</string>
+    <string name="title_section3">Kelurahan</string>
+    <string name="title_section4">Kecamatan</string>
+    <string name="title_section5">Logout</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="dok_array">
+        <item>KTP</item>
+        <item>KK</item>
+        <item>Akta Lahir</item>
+        <item>Surat KTM</item>
+        <item>Surat Pindah Masuk</item>
+        <item>Surat Pindah Keluar</item>
+        <item>Surat Untuk SKCK</item>
+        <item>Surat Meninggal</item>
+    </string-array>
+
+    <string-array name="tingkat_array">
+        <item>RT</item>
+        <item>RW</item>
+        <item>Kelurahan</item>
+        <item>Kecamatan</item>
+        <item>Kota</item>
+    </string-array>
+</resources>

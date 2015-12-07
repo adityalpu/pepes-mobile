@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linear_layout1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <org.bic.pepesmobile.custom.AutoResizeTextView
+                android:id="@+id/jenis_pelayanan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Jenis Pelayanan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#666"
+                android:maxLines="1"
+                android:ellipsize="none" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Spinner
+                android:id="@+id/jenis_pelayanan_value"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:padding="5dp"
+                android:layout_weight="0.13" />
+            <Spinner
+                android:id="@+id/tingkat_value"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:padding="5dp"
+                android:layout_weight="0.13" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/nik_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="NIK"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/lama_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Lama Hari"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hari"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/pungutan_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Jumlah Pungutan"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rupiah"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/lokasi_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Lokasi"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button_submit"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
