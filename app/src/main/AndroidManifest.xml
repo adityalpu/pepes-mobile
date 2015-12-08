@@ -14,15 +14,11 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-<<<<<<< HEAD
         android:name=".application.PepesApplication"
-=======
->>>>>>> 4e3ead1d5ea3d43e98be83069b77f9fa779cf933
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-<<<<<<< HEAD
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -36,17 +32,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-=======
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize|stateHidden" >
-        </activity>
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
->>>>>>> 4e3ead1d5ea3d43e98be83069b77f9fa779cf933
     </application>
 
 </manifest>

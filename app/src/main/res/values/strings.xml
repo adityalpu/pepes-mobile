@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">PepesMobile</string>
-<<<<<<< HEAD
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Pepes Mobile</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -33,6 +32,4 @@
         <item>Kecamatan</item>
         <item>Kota</item>
     </string-array>
-=======
->>>>>>> 4e3ead1d5ea3d43e98be83069b77f9fa779cf933
 </resources>
